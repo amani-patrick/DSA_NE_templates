@@ -27,7 +27,7 @@ string trim(string str)
     return str;
 }
 
-// Function to get city index
+// Check the array index of cities to get the index
 int getCityIndex(string cityName)
 {
     for(int i = 0; i < cities.size(); i++)
